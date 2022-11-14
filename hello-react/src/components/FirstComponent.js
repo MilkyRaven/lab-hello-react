@@ -1,11 +1,14 @@
 import './FirstComponent.css'
+import logo from '../images/logo.png'
+import menu from '../images/menu.png'
+
 function FirstComponent(){
     return (
         <div>
             <div className="main">
                 <div className="menu-bar">
-                    <img src="src/images/68747470733a2f2f656475636174696f6e2d7465616d2d323032302e73332e65752d776573742d312e616d617a6f6e6177732e636f6d2f7765622d6465762f6c6162732f6c616e64696e672d706167652f69636f6e312e706e67.png"/>
-                    <img src="src/images/68747470733a2f2f656475636174696f6e2d7465616d2d323032302e73332e65752d776573742d312e616d617a6f6e6177732e636f6d2f7765622d6465762f6c6162732f6c616e64696e672d706167652f69636f6e322e706e67.png"/>
+                    <img src={logo}/>
+                    <img src={menu}/>
                 </div>
                 <div className="text-container">
                     <div className="main-text">

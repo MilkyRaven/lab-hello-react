@@ -5,6 +5,10 @@ h2 {
     font-size: 1em;
     font-family:Arial, Helvetica, sans-serif;
 }
+img {
+    margin: 10px;
+    width: 50px;
+}
 .menu-bar {
     display: flex;
     flex-flow: row nowrap;
@@ -12,7 +16,7 @@ h2 {
 }
 .main {
     color: white;
-    background-color: rgb(21, 21, 70);
+    background-color: rgb(39, 39, 52);
 }
 .text-container {
     display: flex;
