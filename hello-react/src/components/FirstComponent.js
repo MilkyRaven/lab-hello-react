@@ -1,6 +1,10 @@
 import './FirstComponent.css'
 import logo from '../images/logo.png'
 import menu from '../images/menu.png'
+import code from '../images/code.png'
+import engine from '../images/engine.png'
+import tool from '../images/tool.png'
+import write from '../images/write.png'
 
 function FirstComponent(){
     return (
@@ -20,24 +24,24 @@ function FirstComponent(){
             </div>
             <div className="description">
                 <div className="card">
-                    <img/>
+                    <img src={tool}/>
                     <h3>Declarative</h3>
                     <p>React makes it painless to create interactive UIs</p>
                 </div>
                 <div className="card">
-                    <img/>
-                    <h3>Declarative</h3>
-                    <p>React makes it painless to create interactive UIs</p>
+                    <img src={write}/>
+                    <h3>Components</h3>
+                    <p>Build encapsulated components that manage their state</p>
                 </div>
                 <div className="card">
-                    <img/>
-                    <h3>Declarative</h3>
-                    <p>React makes it painless to create interactive UIs</p>
+                    <img src={engine}/>
+                    <h3>Single-Way</h3>
+                    <p>A set of immutable values are passed to the components</p>
                 </div> 
                 <div className="card">
-                    <img/>
-                    <h3>Declarative</h3>
-                    <p>React makes it painless to create interactive UIs</p>
+                    <img src={code}/>
+                    <h3>JSX</h3>
+                    <p>Statically-typed, designed to run on modern browsers</p>
                 </div>            
             </div>
         </div>
